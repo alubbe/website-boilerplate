@@ -26,9 +26,9 @@ module.exports = (grunt) ->
           pretty: true
         files: [
           expand: true
-          cwd: "src"
+          cwd: "src/html"
           src: ["**/*.jade", "!includes/**/*.jade", "!layouts/**/*.jade"]
-          dest: "lib"
+          dest: "lib/html"
           ext: '.html'
         ]
     sass:

@@ -3,14 +3,19 @@ script(type='text/javascript', src="https://ajax.googleapis.com/ajax/libs/webfon
 script(type='text/javascript').
   WebFont.load({
     google: {
-      families: ["Montserrat:400,700","Bitter:400,700", "Lato:100,300,400,700,900"]
+      families: ["Montserrat:400,700", "Bitter:400,700", "Lato:100,300,400,700,900"]
     }
   });
 
-script(type='text/javascript', src='js/custom.modernizr.js')
+script(type='text/javascript', src='../js/custom.modernizr.js')
 script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
-script(type='text/javascript', src='js/common.js')
 
-//- if (req.host='localhost')
-//Livereload script rendered
+// hier kommen alle weiteren JS Bibliotheken hin, z.B.
+// script(type='text/javascript', src='../js/foundation/orbit.js')
+
+
+
+script(type='text/javascript', src='../js/common.js')
+
+// Livereload script rendered
 script(type='text/javascript', src='http://localhost:35729/livereload.js')
