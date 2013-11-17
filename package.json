@@ -1,0 +1,26 @@
+{
+  "name": "website-boilerplate",
+  "description": "for front-end devs",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node node_modules/grunt-cli/bin/grunt"
+  },
+  "dependencies": {
+    "coffee-script": "latest",
+    "jade": "latest",
+    "grunt": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jade": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-cli": "latest",
+    "nodetime": "latest",
+    "source-map-support": "latest"
+  }
+}
