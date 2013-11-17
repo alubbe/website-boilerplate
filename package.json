@@ -20,7 +20,6 @@
     "grunt-contrib-sass": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-cli": "latest",
-    "nodetime": "latest",
     "source-map-support": "latest"
   }
 }
